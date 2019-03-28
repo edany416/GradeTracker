@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C1A696A2107E4D7007E2DAF /* CancelIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A69692107E4D7007E2DAF /* CancelIcon.swift */; };
+		8C1A696C2107F2D1007E2DAF /* SaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A696B2107F2D1007E2DAF /* SaveIcon.swift */; };
+		8C20A0A12107518700AD4CD0 /* DataPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0A02107518700AD4CD0 /* DataPersistenceService.swift */; };
+		8C20A0A3210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0A2210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift */; };
+		8C20A0A52107536800AD4CD0 /* PropertyKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0A42107536800AD4CD0 /* PropertyKeys.swift */; };
+		8C20A0AB21076EF500AD4CD0 /* Gradeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0AA21076EF500AD4CD0 /* Gradeable.swift */; };
+		8C20A0AD21076FAA00AD4CD0 /* GradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0AC21076FAA00AD4CD0 /* GradeCalculator.swift */; };
+		8C20A0AF2107987500AD4CD0 /* UserActivityRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0AE2107987500AD4CD0 /* UserActivityRecorder.swift */; };
+		8C20A0B121079DD200AD4CD0 /* UserActivityNotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0B021079DD200AD4CD0 /* UserActivityNotificationNames.swift */; };
+		8C20A0B321079EEA00AD4CD0 /* CriteriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0B221079EEA00AD4CD0 /* CriteriaViewController.swift */; };
+		8C20A0B52107A4B000AD4CD0 /* AssignmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0B42107A4B000AD4CD0 /* AssignmentsViewController.swift */; };
+		8C20A0B82107B72000AD4CD0 /* GradeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0B72107B72000AD4CD0 /* GradeFormatter.swift */; };
+		8C351D872107152D0095774A /* CriteriaInputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C351D862107152D0095774A /* CriteriaInputFormViewController.swift */; };
+		8C351D8921071B100095774A /* CourseInputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C351D8821071B100095774A /* CourseInputFormViewController.swift */; };
+		8C351D8B21072FA90095774A /* AssignmentInputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C351D8A21072FA90095774A /* AssignmentInputFormViewController.swift */; };
+		8C351D8D210731DB0095774A /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C351D8C210731DB0095774A /* Assignment.swift */; };
+		8C7C8C74211DA94700875B33 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C8C73211DA94700875B33 /* InputField.swift */; };
+		8C7C8C76211DA95D00875B33 /* InputField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7C8C75211DA95D00875B33 /* InputField.xib */; };
+		8C7C8C78211DAD2A00875B33 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C8C77211DAD2A00875B33 /* UITextFieldExtension.swift */; };
+		8C92CACE210BDAE9005FB962 /* GTLargeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92CACD210BDAE9005FB962 /* GTLargeTableViewCell.swift */; };
+		8CC4521021096138003E6758 /* TableViewDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC4520F21096138003E6758 /* TableViewDelegateWrapper.swift */; };
+		8CC4521321096766003E6758 /* GTTableViewSwipeActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC4521221096766003E6758 /* GTTableViewSwipeActionDelegate.swift */; };
+		8CC452152109BDBB003E6758 /* BaseVCBackDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC452142109BDBB003E6758 /* BaseVCBackDropView.swift */; };
 		8CD4F16F2103F5D60090E5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F16E2103F5D60090E5F4 /* AppDelegate.swift */; };
-		8CD4F1712103F5D60090E5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1702103F5D60090E5F4 /* ViewController.swift */; };
 		8CD4F1742103F5D60090E5F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD4F1722103F5D60090E5F4 /* Main.storyboard */; };
 		8CD4F1762103F5D90090E5F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD4F1752103F5D90090E5F4 /* Assets.xcassets */; };
 		8CD4F1792103F5D90090E5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD4F1772103F5D90090E5F4 /* LaunchScreen.storyboard */; };
 		8CD4F1842103F5DA0090E5F4 /* GradeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1832103F5DA0090E5F4 /* GradeTrackerTests.swift */; };
 		8CD4F18F2103F5DA0090E5F4 /* GradeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F18E2103F5DA0090E5F4 /* GradeTrackerUITests.swift */; };
+		8CD4F1A02103F6950090E5F4 /* GTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F19F2103F6950090E5F4 /* GTBaseViewController.swift */; };
+		8CD4F1A32103F76D0090E5F4 /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1A22103F76D0090E5F4 /* Displayable.swift */; };
+		8CD4F1A7210402330090E5F4 /* CourseArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1A6210402330090E5F4 /* CourseArray.swift */; };
+		8CD4F1A9210402E70090E5F4 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1A8210402E70090E5F4 /* Course.swift */; };
+		8CD4F1AB210405940090E5F4 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1AA210405940090E5F4 /* HomeScreenViewController.swift */; };
+		8CD4F1AD210425B90090E5F4 /* InputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1AC210425B90090E5F4 /* InputFormViewController.swift */; };
+		8CD4F1B1210435450090E5F4 /* GradingCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4F1B0210435450090E5F4 /* GradingCriteria.swift */; };
+		8CED2331210FDD5900E3F38D /* UserErrorAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CED2330210FDD5900E3F38D /* UserErrorAlerts.swift */; };
+		8CED2396211CFB0B00E3F38D /* GTRoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CED2395211CFB0B00E3F38D /* GTRoundedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +65,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C1A69692107E4D7007E2DAF /* CancelIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelIcon.swift; sourceTree = "<group>"; };
+		8C1A696B2107F2D1007E2DAF /* SaveIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIcon.swift; sourceTree = "<group>"; };
+		8C20A0A02107518700AD4CD0 /* DataPersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataPersistenceService.swift; path = ../../../../../../Dropbox/iOS/GradeTracker/GradeTracker/Misc/DataPersistenceService.swift; sourceTree = "<group>"; };
+		8C20A0A2210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTableViewDatabaseDelegate.swift; sourceTree = "<group>"; };
+		8C20A0A42107536800AD4CD0 /* PropertyKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyKeys.swift; sourceTree = "<group>"; };
+		8C20A0AA21076EF500AD4CD0 /* Gradeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradeable.swift; sourceTree = "<group>"; };
+		8C20A0AC21076FAA00AD4CD0 /* GradeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCalculator.swift; sourceTree = "<group>"; };
+		8C20A0AE2107987500AD4CD0 /* UserActivityRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivityRecorder.swift; sourceTree = "<group>"; };
+		8C20A0B021079DD200AD4CD0 /* UserActivityNotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivityNotificationNames.swift; sourceTree = "<group>"; };
+		8C20A0B221079EEA00AD4CD0 /* CriteriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriteriaViewController.swift; sourceTree = "<group>"; };
+		8C20A0B42107A4B000AD4CD0 /* AssignmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsViewController.swift; sourceTree = "<group>"; };
+		8C20A0B72107B72000AD4CD0 /* GradeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeFormatter.swift; sourceTree = "<group>"; };
+		8C351D862107152D0095774A /* CriteriaInputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriteriaInputFormViewController.swift; sourceTree = "<group>"; };
+		8C351D8821071B100095774A /* CourseInputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInputFormViewController.swift; sourceTree = "<group>"; };
+		8C351D8A21072FA90095774A /* AssignmentInputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentInputFormViewController.swift; sourceTree = "<group>"; };
+		8C351D8C210731DB0095774A /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		8C7C8C73211DA94700875B33 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		8C7C8C75211DA95D00875B33 /* InputField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputField.xib; sourceTree = "<group>"; };
+		8C7C8C77211DAD2A00875B33 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		8C92CACD210BDAE9005FB962 /* GTLargeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTLargeTableViewCell.swift; sourceTree = "<group>"; };
+		8CC4520F21096138003E6758 /* TableViewDelegateWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDelegateWrapper.swift; sourceTree = "<group>"; };
+		8CC4521221096766003E6758 /* GTTableViewSwipeActionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTableViewSwipeActionDelegate.swift; sourceTree = "<group>"; };
+		8CC452142109BDBB003E6758 /* BaseVCBackDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCBackDropView.swift; sourceTree = "<group>"; };
 		8CD4F16B2103F5D60090E5F4 /* GradeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD4F16E2103F5D60090E5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CD4F1702103F5D60090E5F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CD4F1732103F5D60090E5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CD4F1752103F5D90090E5F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD4F1782103F5D90090E5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +100,15 @@
 		8CD4F18A2103F5DA0090E5F4 /* GradeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD4F18E2103F5DA0090E5F4 /* GradeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeTrackerUITests.swift; sourceTree = "<group>"; };
 		8CD4F1902103F5DA0090E5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD4F19F2103F6950090E5F4 /* GTBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTBaseViewController.swift; sourceTree = "<group>"; };
+		8CD4F1A22103F76D0090E5F4 /* Displayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
+		8CD4F1A6210402330090E5F4 /* CourseArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseArray.swift; sourceTree = "<group>"; };
+		8CD4F1A8210402E70090E5F4 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		8CD4F1AA210405940090E5F4 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		8CD4F1AC210425B90090E5F4 /* InputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFormViewController.swift; sourceTree = "<group>"; };
+		8CD4F1B0210435450090E5F4 /* GradingCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingCriteria.swift; sourceTree = "<group>"; };
+		8CED2330210FDD5900E3F38D /* UserErrorAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserErrorAlerts.swift; sourceTree = "<group>"; };
+		8CED2395211CFB0B00E3F38D /* GTRoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTRoundedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +136,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C1A69682107E4A8007E2DAF /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C1A69692107E4D7007E2DAF /* CancelIcon.swift */,
+				8C1A696B2107F2D1007E2DAF /* SaveIcon.swift */,
+				8CC452142109BDBB003E6758 /* BaseVCBackDropView.swift */,
+				8C92CACD210BDAE9005FB962 /* GTLargeTableViewCell.swift */,
+				8CED2395211CFB0B00E3F38D /* GTRoundedTextField.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8C1A696D2107FC94007E2DAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C8C77211DAD2A00875B33 /* UITextFieldExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C20A0B62107A6E400AD4CD0 /* Base View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4F19F2103F6950090E5F4 /* GTBaseViewController.swift */,
+				8CD4F1AC210425B90090E5F4 /* InputFormViewController.swift */,
+			);
+			path = "Base View Controllers";
+			sourceTree = "<group>";
+		};
+		8C351D3B2106C3F60095774A /* Constants and Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				8C20A0A42107536800AD4CD0 /* PropertyKeys.swift */,
+				8C20A0B021079DD200AD4CD0 /* UserActivityNotificationNames.swift */,
+			);
+			path = "Constants and Stuff";
+			sourceTree = "<group>";
+		};
+		8C7C8C72211DA8F500875B33 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C8C73211DA94700875B33 /* InputField.swift */,
+				8C7C8C75211DA95D00875B33 /* InputField.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		8CC4520E210960EE003E6758 /* Organizational Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC4520F21096138003E6758 /* TableViewDelegateWrapper.swift */,
+			);
+			path = "Organizational Files";
+			sourceTree = "<group>";
+		};
+		8CC4521121096151003E6758 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4F1AA210405940090E5F4 /* HomeScreenViewController.swift */,
+				8C20A0B221079EEA00AD4CD0 /* CriteriaViewController.swift */,
+				8C20A0B42107A4B000AD4CD0 /* AssignmentsViewController.swift */,
+				8C351D8821071B100095774A /* CourseInputFormViewController.swift */,
+				8C351D862107152D0095774A /* CriteriaInputFormViewController.swift */,
+				8C351D8A21072FA90095774A /* AssignmentInputFormViewController.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
 		8CD4F1622103F5D60090E5F4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +227,16 @@
 		8CD4F16D2103F5D60090E5F4 /* GradeTracker */ = {
 			isa = PBXGroup;
 			children = (
-				8CD4F16E2103F5D60090E5F4 /* AppDelegate.swift */,
-				8CD4F1702103F5D60090E5F4 /* ViewController.swift */,
+				8C7C8C72211DA8F500875B33 /* Xib */,
+				8CC4520E210960EE003E6758 /* Organizational Files */,
+				8C1A696D2107FC94007E2DAF /* Extensions */,
+				8C1A69682107E4A8007E2DAF /* Custom Views */,
+				8C351D3B2106C3F60095774A /* Constants and Stuff */,
+				8CD4F1A12103F7410090E5F4 /* Protocols */,
+				8CD4F19D2103F5FF0090E5F4 /* View Controllers */,
+				8CD4F19C2103F5EF0090E5F4 /* Model */,
+				8CD4F19E2103F61D0090E5F4 /* Misc */,
 				8CD4F1722103F5D60090E5F4 /* Main.storyboard */,
-				8CD4F1752103F5D90090E5F4 /* Assets.xcassets */,
-				8CD4F1772103F5D90090E5F4 /* LaunchScreen.storyboard */,
 				8CD4F17A2103F5D90090E5F4 /* Info.plist */,
 			);
 			path = GradeTracker;
@@ -123,6 +258,52 @@
 				8CD4F1902103F5DA0090E5F4 /* Info.plist */,
 			);
 			path = GradeTrackerUITests;
+			sourceTree = "<group>";
+		};
+		8CD4F19C2103F5EF0090E5F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4F1A6210402330090E5F4 /* CourseArray.swift */,
+				8CD4F1A8210402E70090E5F4 /* Course.swift */,
+				8CD4F1B0210435450090E5F4 /* GradingCriteria.swift */,
+				8C351D8C210731DB0095774A /* Assignment.swift */,
+				8C20A0A02107518700AD4CD0 /* DataPersistenceService.swift */,
+				8C20A0AC21076FAA00AD4CD0 /* GradeCalculator.swift */,
+				8C20A0AE2107987500AD4CD0 /* UserActivityRecorder.swift */,
+				8C20A0B72107B72000AD4CD0 /* GradeFormatter.swift */,
+				8CED2330210FDD5900E3F38D /* UserErrorAlerts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CD4F19D2103F5FF0090E5F4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C20A0B62107A6E400AD4CD0 /* Base View Controllers */,
+				8CC4521121096151003E6758 /* Rest */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8CD4F19E2103F61D0090E5F4 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4F16E2103F5D60090E5F4 /* AppDelegate.swift */,
+				8CD4F1752103F5D90090E5F4 /* Assets.xcassets */,
+				8CD4F1772103F5D90090E5F4 /* LaunchScreen.storyboard */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		8CD4F1A12103F7410090E5F4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4F1A22103F76D0090E5F4 /* Displayable.swift */,
+				8C20A0A2210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift */,
+				8C20A0AA21076EF500AD4CD0 /* Gradeable.swift */,
+				8CC4521221096766003E6758 /* GTTableViewSwipeActionDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +413,7 @@
 				8CD4F1792103F5D90090E5F4 /* LaunchScreen.storyboard in Resources */,
 				8CD4F1762103F5D90090E5F4 /* Assets.xcassets in Resources */,
 				8CD4F1742103F5D60090E5F4 /* Main.storyboard in Resources */,
+				8C7C8C76211DA95D00875B33 /* InputField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +438,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD4F1712103F5D60090E5F4 /* ViewController.swift in Sources */,
+				8C20A0B121079DD200AD4CD0 /* UserActivityNotificationNames.swift in Sources */,
+				8C351D8D210731DB0095774A /* Assignment.swift in Sources */,
+				8C20A0AB21076EF500AD4CD0 /* Gradeable.swift in Sources */,
+				8CD4F1A7210402330090E5F4 /* CourseArray.swift in Sources */,
+				8C20A0A52107536800AD4CD0 /* PropertyKeys.swift in Sources */,
+				8CD4F1A02103F6950090E5F4 /* GTBaseViewController.swift in Sources */,
+				8C92CACE210BDAE9005FB962 /* GTLargeTableViewCell.swift in Sources */,
+				8CD4F1A9210402E70090E5F4 /* Course.swift in Sources */,
+				8C1A696A2107E4D7007E2DAF /* CancelIcon.swift in Sources */,
+				8C351D8B21072FA90095774A /* AssignmentInputFormViewController.swift in Sources */,
+				8C1A696C2107F2D1007E2DAF /* SaveIcon.swift in Sources */,
+				8C20A0B82107B72000AD4CD0 /* GradeFormatter.swift in Sources */,
 				8CD4F16F2103F5D60090E5F4 /* AppDelegate.swift in Sources */,
+				8CC452152109BDBB003E6758 /* BaseVCBackDropView.swift in Sources */,
+				8CD4F1A32103F76D0090E5F4 /* Displayable.swift in Sources */,
+				8C351D8921071B100095774A /* CourseInputFormViewController.swift in Sources */,
+				8C20A0A3210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift in Sources */,
+				8CD4F1AD210425B90090E5F4 /* InputFormViewController.swift in Sources */,
+				8CD4F1B1210435450090E5F4 /* GradingCriteria.swift in Sources */,
+				8CC4521321096766003E6758 /* GTTableViewSwipeActionDelegate.swift in Sources */,
+				8CD4F1AB210405940090E5F4 /* HomeScreenViewController.swift in Sources */,
+				8C20A0B52107A4B000AD4CD0 /* AssignmentsViewController.swift in Sources */,
+				8C20A0A12107518700AD4CD0 /* DataPersistenceService.swift in Sources */,
+				8C20A0AF2107987500AD4CD0 /* UserActivityRecorder.swift in Sources */,
+				8CED2396211CFB0B00E3F38D /* GTRoundedTextField.swift in Sources */,
+				8C7C8C78211DAD2A00875B33 /* UITextFieldExtension.swift in Sources */,
+				8CC4521021096138003E6758 /* TableViewDelegateWrapper.swift in Sources */,
+				8C20A0B321079EEA00AD4CD0 /* CriteriaViewController.swift in Sources */,
+				8CED2331210FDD5900E3F38D /* UserErrorAlerts.swift in Sources */,
+				8C351D872107152D0095774A /* CriteriaInputFormViewController.swift in Sources */,
+				8C20A0AD21076FAA00AD4CD0 /* GradeCalculator.swift in Sources */,
+				8C7C8C74211DA94700875B33 /* InputField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
