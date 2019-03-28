@@ -1,7 +1,7 @@
 ## GradeTracker
 GradeTracker is an application that allows students to track their current course.
 
-GradeTracker is the first significant iOS application I built. My goal for this application was to become familiar with Xcode, Swift
+GradeTracker is the first substantial iOS application I built. My goal for this application was to become familiar with Xcode, Swift
 and cover as many iOS developement topics as possible via a single application. 
 
 ### Topics Covered
