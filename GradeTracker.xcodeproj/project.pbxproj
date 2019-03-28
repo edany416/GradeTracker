@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8C1A696A2107E4D7007E2DAF /* CancelIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A69692107E4D7007E2DAF /* CancelIcon.swift */; };
 		8C1A696C2107F2D1007E2DAF /* SaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A696B2107F2D1007E2DAF /* SaveIcon.swift */; };
-		8C20A0A12107518700AD4CD0 /* DataPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0A02107518700AD4CD0 /* DataPersistenceService.swift */; };
 		8C20A0A3210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0A2210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift */; };
 		8C20A0A52107536800AD4CD0 /* PropertyKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0A42107536800AD4CD0 /* PropertyKeys.swift */; };
 		8C20A0AB21076EF500AD4CD0 /* Gradeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A0AA21076EF500AD4CD0 /* Gradeable.swift */; };
@@ -23,6 +22,7 @@
 		8C351D8921071B100095774A /* CourseInputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C351D8821071B100095774A /* CourseInputFormViewController.swift */; };
 		8C351D8B21072FA90095774A /* AssignmentInputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C351D8A21072FA90095774A /* AssignmentInputFormViewController.swift */; };
 		8C351D8D210731DB0095774A /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C351D8C210731DB0095774A /* Assignment.swift */; };
+		8C637B84224D71970024595A /* DataPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C637B83224D71970024595A /* DataPersistenceService.swift */; };
 		8C7C8C74211DA94700875B33 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C8C73211DA94700875B33 /* InputField.swift */; };
 		8C7C8C76211DA95D00875B33 /* InputField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7C8C75211DA95D00875B33 /* InputField.xib */; };
 		8C7C8C78211DAD2A00875B33 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C8C77211DAD2A00875B33 /* UITextFieldExtension.swift */; };
@@ -67,7 +67,6 @@
 /* Begin PBXFileReference section */
 		8C1A69692107E4D7007E2DAF /* CancelIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelIcon.swift; sourceTree = "<group>"; };
 		8C1A696B2107F2D1007E2DAF /* SaveIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIcon.swift; sourceTree = "<group>"; };
-		8C20A0A02107518700AD4CD0 /* DataPersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataPersistenceService.swift; path = ../../../../../../Dropbox/iOS/GradeTracker/GradeTracker/Misc/DataPersistenceService.swift; sourceTree = "<group>"; };
 		8C20A0A2210752A200AD4CD0 /* GTTableViewDatabaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTableViewDatabaseDelegate.swift; sourceTree = "<group>"; };
 		8C20A0A42107536800AD4CD0 /* PropertyKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyKeys.swift; sourceTree = "<group>"; };
 		8C20A0AA21076EF500AD4CD0 /* Gradeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradeable.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		8C351D8821071B100095774A /* CourseInputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInputFormViewController.swift; sourceTree = "<group>"; };
 		8C351D8A21072FA90095774A /* AssignmentInputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentInputFormViewController.swift; sourceTree = "<group>"; };
 		8C351D8C210731DB0095774A /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		8C637B83224D71970024595A /* DataPersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPersistenceService.swift; sourceTree = "<group>"; };
 		8C7C8C73211DA94700875B33 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
 		8C7C8C75211DA95D00875B33 /* InputField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputField.xib; sourceTree = "<group>"; };
 		8C7C8C77211DAD2A00875B33 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
@@ -267,7 +267,7 @@
 				8CD4F1A8210402E70090E5F4 /* Course.swift */,
 				8CD4F1B0210435450090E5F4 /* GradingCriteria.swift */,
 				8C351D8C210731DB0095774A /* Assignment.swift */,
-				8C20A0A02107518700AD4CD0 /* DataPersistenceService.swift */,
+				8C637B83224D71970024595A /* DataPersistenceService.swift */,
 				8C20A0AC21076FAA00AD4CD0 /* GradeCalculator.swift */,
 				8C20A0AE2107987500AD4CD0 /* UserActivityRecorder.swift */,
 				8C20A0B72107B72000AD4CD0 /* GradeFormatter.swift */,
@@ -445,6 +445,7 @@
 				8C20A0A52107536800AD4CD0 /* PropertyKeys.swift in Sources */,
 				8CD4F1A02103F6950090E5F4 /* GTBaseViewController.swift in Sources */,
 				8C92CACE210BDAE9005FB962 /* GTLargeTableViewCell.swift in Sources */,
+				8C637B84224D71970024595A /* DataPersistenceService.swift in Sources */,
 				8CD4F1A9210402E70090E5F4 /* Course.swift in Sources */,
 				8C1A696A2107E4D7007E2DAF /* CancelIcon.swift in Sources */,
 				8C351D8B21072FA90095774A /* AssignmentInputFormViewController.swift in Sources */,
@@ -460,7 +461,6 @@
 				8CC4521321096766003E6758 /* GTTableViewSwipeActionDelegate.swift in Sources */,
 				8CD4F1AB210405940090E5F4 /* HomeScreenViewController.swift in Sources */,
 				8C20A0B52107A4B000AD4CD0 /* AssignmentsViewController.swift in Sources */,
-				8C20A0A12107518700AD4CD0 /* DataPersistenceService.swift in Sources */,
 				8C20A0AF2107987500AD4CD0 /* UserActivityRecorder.swift in Sources */,
 				8CED2396211CFB0B00E3F38D /* GTRoundedTextField.swift in Sources */,
 				8C7C8C78211DAD2A00875B33 /* UITextFieldExtension.swift in Sources */,
